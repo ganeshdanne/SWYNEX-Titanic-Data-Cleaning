@@ -1,0 +1,35 @@
+SWYNEX DATA CLEANING & PREPARATION REPORT
+==================================================
+
+Dataset: Titanic Dataset
+
+CLEANING OPERATIONS
+------------------------------
+Duplicate records removed: 0
+Invalid age values corrected: 0
+Invalid fare values corrected: 0
+Missing age values before cleaning: 177
+Missing fare values before cleaning: 0
+Missing embarked values before cleaning: 2
+Missing cabin values: 687
+Cabin column was removed because it contained many missing values.
+
+FINAL DATASET
+------------------------------
+Rows: 891
+Columns: 11
+Remaining duplicates: 0
+
+Remaining missing values:
+passengerid    0
+survived       0
+pclass         0
+name           0
+sex            0
+age            0
+sibsp          0
+parch          0
+ticket         0
+fare           0
+embarked       0
+dtype: int64
